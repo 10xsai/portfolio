@@ -8,6 +8,8 @@ const nextConfig = withContentlayer({
     domains: ['res.cloudinary.com', 'user-images.githubusercontent.com'],
     unoptimized: true,
   },
+  // basePath: "/portfolio",
+  // assetPrefix: "/portfolio",
   webpack: (config, { isServer }) => {
     if (isServer) {
       require('./scripts/generate-sitemap') // eslint-disable-line
