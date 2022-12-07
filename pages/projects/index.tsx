@@ -18,7 +18,7 @@ const Projects = ({ projects }: { projects: ProjectType[] }): JSX.Element => {
         description={seoDesc}
         openGraph={{
           title: seoTitle,
-          url: `https://shanmukh.xyz/projects/`,
+          url: `https://krishnagottipalli.github.io/portfolio/projects/`,
           description: seoDesc,
           site_name: 'Sai Krishna',
         }}
@@ -53,7 +53,7 @@ const Projects = ({ projects }: { projects: ProjectType[] }): JSX.Element => {
                       <div className={styles.tagElements}>
                         {project.tagUrls.map(t => (
                           <div key={t} className={styles.tag}>
-                            <img src={t} alt={t} />
+                            <img src={`/${process.env.NODE_ENV=='development'?"":"portfolio"}${t}`} alt={t} />
                           </div>
                         ))}
                       </div>

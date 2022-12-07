@@ -18,7 +18,7 @@ const IconsComponent = () => {
             <div className={styles.icons} key={item[0]}>
               <a rel="noopener noreferrer" target="_blank" href={`${item[1].website}`}>
                 <span>{item[0]}</span>
-                <img src={`${item[1].path}`} alt={`${item[0]}`} />
+                <img src={`${process.env.NODE_ENV=='development'?"":"portfolio"}${item[1].path}`} alt={`${item[0]}`} />
               </a>
             </div>
           )

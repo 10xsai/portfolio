@@ -8,7 +8,7 @@ const PageInit = () => {
     <>
       <div className={loadingStyles.PageInit}>
         <div>
-          <img src="/puppy/01.gif" alt="moving image" />
+          <img src={`${process.env.NODE_ENV=='development'?"":"portfolio"}/puppy/01.gif`} alt="moving image" />
         </div>
       </div>
     </>
