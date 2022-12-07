@@ -4,18 +4,11 @@
         <description><![CDATA[Sai Krishna]]></description>
         <link>https://www.shanmukh.xyz/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Dec 2022 15:08:27 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Dec 2022 15:25:01 GMT</lastBuildDate>
         <atom:link href="https://www.shanmukh.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 07 Dec 2022 15:08:27 GMT</pubDate>
+        <pubDate>Wed, 07 Dec 2022 15:25:00 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2022, Sai Krishna]]></copyright>
         <language><![CDATA[en]]></language>
-        <item>
-            <title><![CDATA[learn basic git commands]]></title>
-            <description><![CDATA[This post contains basic commands of git.]]></description>
-            <link>https://www.shanmukh.xyz/blog/learn-basic-git-commands</link>
-            <guid isPermaLink="true">https://www.shanmukh.xyz/blog/learn-basic-git-commands</guid>
-            <pubDate>Sat, 29 Oct 2022 00:00:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[React useReducer hook Simplified]]></title>
             <description><![CDATA[React useReducer hook Simplified]]></description>
@@ -29,6 +22,13 @@
             <link>https://www.shanmukh.xyz/blog/use-state-lazy-init</link>
             <guid isPermaLink="true">https://www.shanmukh.xyz/blog/use-state-lazy-init</guid>
             <pubDate>Sun, 28 Aug 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[learn basic git commands]]></title>
+            <description><![CDATA[This post contains basic commands of git.]]></description>
+            <link>https://www.shanmukh.xyz/blog/learn-basic-git-commands</link>
+            <guid isPermaLink="true">https://www.shanmukh.xyz/blog/learn-basic-git-commands</guid>
+            <pubDate>Sat, 29 Oct 2022 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -56,7 +56,7 @@ const Home: NextPage = () => {
         <IconsComponent />
         <ProjectsComponent />
         <BreakComponent marginTop="2rem" />
-        <MessageComponent ref={parentRef} />
+        {/* <MessageComponent ref={parentRef} /> */}
 
         <Footer />
       </main>
