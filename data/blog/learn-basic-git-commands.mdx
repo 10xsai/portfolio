@@ -1,0 +1,139 @@
+---
+title: "learn basic git commands"
+publishedAt: "2022-10-29"
+updatedAt: "2022-11-2"
+summary: "This post contains basic commands of git."
+tags: ["git", "bash"]
+
+---
+
+
+
+**There are many things you can do with React Refs. Refs in React are a powerful tool but they can be tricky and can be misused easily which can lead to lots of bugs and unexpected behaviours. we will go through most of the ways we can utilize the Refs for good**
+
+You can read more about `git commands` in [git-scm docs](https://git-scm.com/docs/git). 
+
+---
+## Initial Config
+### Set username and password.
+
+```bash
+# Setting user name
+git config --global user.name { github_username }
+
+# Setting user email
+git config --global user.email { github_email }
+```
+
+### List all config
+```bash
+git config --list
+```
+---
+## Git clone
+### Clone repository
+```bash
+git clone ${ repository_url }
+```
+Using this command you can download and initialize a repository from a remote url into your local machine.
+
+### Clone repository with different name
+```bash
+git clone { repository_url } { folder_name }
+```
+
+### Clone to a specific directory
+```bash
+git clone { repository_url } { directory_path }
+```
+
+### Clone a specific branch
+```bash
+git clone -b { branch_name } { repository_url }
+```
+---
+## Intializing a repository from folder
+### Using git init
+```bash
+git init
+```
+To initialize a repository, Git creates a hidden directory called .git . This .git directory stores all of the objects and refs that Git uses and creates as a part of your project's history.
+
+### Connect initialized repository to remote url
+```bash
+git remote add origin { repository_url }
+```
+
+---
+## Commiting changes to repository
+### To Check status of files
+```bash
+git status
+```
+<span style={{color:'green'}}>Green lines</span> indicate files are added to staging area.
+
+<span style={{color:'red'}}>Red lines</span> indicate files are not added to staging area.
+
+### Add files to staging area
+```bash
+# Add particular file to staging area
+git add ${ file1.txt } ${ file2.txt }
+
+# To add all files in that directory
+git add .
+```
+
+### Commit changes
+```bash
+git commit -m "Commit message"
+```
+
+### Push code
+```bash
+# Push to master branch
+git push origin master
+
+# Push to a particular branch
+git push origin { branch_name }
+
+# Push all branches to remote repository
+git push --all origin
+```
+---
+## Pulling code from a branch
+```bash
+# Pull from master branch
+git pull origin master
+
+# Push to a particular branch
+git pull origin { branch_name }
+```
+---
+## Commands on Git Branch
+### List all branches
+```bash
+git branch
+```
+<span style={{color:'green'}}>Green text</span> indicates you are currently on that branch.
+
+### Create a new branch
+```bash
+git branch { branch_name }
+```
+
+### Creates a new branch and switches to newly created branch
+```bash
+git checkout -b { branch_name }
+```
+
+### Switch to another branch
+```bash
+git checkout { branch_name }
+```
+
+### Delete a branch
+```bash
+git branch -d {branch_name}
+```
+
+---
