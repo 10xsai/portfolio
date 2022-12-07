@@ -53,7 +53,7 @@ const Projects = ({ projects }: { projects: ProjectType[] }): JSX.Element => {
                       <div className={styles.tagElements}>
                         {project.tagUrls.map(t => (
                           <div key={t} className={styles.tag}>
-                            <img src={`/${process.env.NODE_ENV=='development'?"":"portfolio"}${t}`} alt={t} />
+                            <img src={`${process.env.NODE_ENV=='development'?"":"/portfolio"}${t}`} alt={t} />
                           </div>
                         ))}
                       </div>
