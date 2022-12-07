@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
           <link rel="preload" href="/fonts/outfit-v4-latin-500.woff2" as="font" type="font/woff" crossOrigin="" />
           <link rel="preload" href="/fonts/outfit-v4-latin-700.woff2" as="font" type="font/woff" crossOrigin="" />
           <link rel="preload" href="/fonts/outfit-v4-latin-regular.woff2" as="font" type="font/woff" crossOrigin="" />
-          <link rel="preload" as="image" href="/blob_bg.webp" />
+          <link rel="preload" as="image" href={`${process.env.NODE_ENV=='development'?"":"/portfolio"}/blob_bg.webp`} />
           <link rel="icon" type="image/x-icon" href="/avatar.svg" />
           <meta property="og:image" content="https://shanmukh.xyz/api/og" />
 
