@@ -6,6 +6,7 @@ const nextConfig = withContentlayer({
   swcMinify: true,
   images: {
     domains: ['res.cloudinary.com', 'user-images.githubusercontent.com'],
+    unoptimized: true,
   },
   webpack: (config, { isServer }) => {
     if (isServer) {

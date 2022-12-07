@@ -4,24 +4,24 @@
         <description><![CDATA[Sai Krishna]]></description>
         <link>https://www.shanmukh.xyz/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Dec 2022 13:44:22 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Dec 2022 14:03:15 GMT</lastBuildDate>
         <atom:link href="https://www.shanmukh.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 07 Dec 2022 13:44:21 GMT</pubDate>
+        <pubDate>Wed, 07 Dec 2022 14:03:15 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2022, Sai Krishna]]></copyright>
         <language><![CDATA[en]]></language>
-        <item>
-            <title><![CDATA[React useReducer hook Simplified]]></title>
-            <description><![CDATA[React useReducer hook Simplified]]></description>
-            <link>https://www.shanmukh.xyz/blog/react-use-reducer-simplified</link>
-            <guid isPermaLink="true">https://www.shanmukh.xyz/blog/react-use-reducer-simplified</guid>
-            <pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[learn basic git commands]]></title>
             <description><![CDATA[This post contains basic commands of git.]]></description>
             <link>https://www.shanmukh.xyz/blog/learn-basic-git-commands</link>
             <guid isPermaLink="true">https://www.shanmukh.xyz/blog/learn-basic-git-commands</guid>
             <pubDate>Sat, 29 Oct 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[React useReducer hook Simplified]]></title>
+            <description><![CDATA[React useReducer hook Simplified]]></description>
+            <link>https://www.shanmukh.xyz/blog/react-use-reducer-simplified</link>
+            <guid isPermaLink="true">https://www.shanmukh.xyz/blog/react-use-reducer-simplified</guid>
+            <pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Lazy Initilization and storing functions in React useState hook]]></title>
