@@ -95,7 +95,7 @@ const Post = ({ post, related }: PostProps): JSX.Element => {
             {
               url: post.og
                 ? `https://krishnagottipalli.github.io/portfolio${post.og}`
-                : `https://image-og.msshanmukh.vercel.app/${encodeURIComponent(post.title)}?desc=${encodeURIComponent(
+                : `https://image-og.krishnagottipalli.vercel.app/${encodeURIComponent(post.title)}?desc=${encodeURIComponent(
                     seoDesc,
                   )}&theme=dark.png`,
               alt: post.title,
@@ -108,9 +108,6 @@ const Post = ({ post, related }: PostProps): JSX.Element => {
             modifiedTime: post.updatedAt,
             authors: ['krishnagottipalli.github.io/portfolio'],
           },
-        }}
-        twitter={{
-          cardType: 'summary_large_image',
         }}
       />
 

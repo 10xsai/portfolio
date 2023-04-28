@@ -98,7 +98,7 @@ export default async function handler(req) {
                 opacity: 0.6,
               }}
             >
-              <b> shanmukh.xyz </b>
+              <b> krishnagottipalli.github.io </b>
             </span>
           </div>
         </div>

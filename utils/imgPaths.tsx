@@ -52,14 +52,6 @@ export const imgPaths = {
     path: '/icons/nextjs-icon.svg',
     website: 'https://nextjs.org',
   },
-  '': {
-    path: '',
-    website: '',
-  },
-  ' ': {
-    path: '',
-    website: '',
-  },
 
   Django: {
     path: '/icons/django.png',

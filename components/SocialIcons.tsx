@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { MdNorthEast } from 'react-icons/md'
 import styles from '../styles/mainheader.module.scss'
 
@@ -12,13 +12,6 @@ export function SocialIcons({ scrollFunction }: any) {
             <FaGithub />
             <a target="_blank" href="https://github.com/krishnagottipalli" rel="noopener noreferrer" className={styles.iconNames}>
               Github
-            </a>
-            <MdNorthEast />
-          </div>
-          <div>
-            <FaTwitter />
-            <a target="_blank" href="https://twitter.com/msshanmukh" rel="noopener noreferrer" className={styles.iconNames}>
-              Twitter
             </a>
             <MdNorthEast />
           </div>

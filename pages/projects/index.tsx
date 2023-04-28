@@ -22,9 +22,6 @@ const Projects = ({ projects }: { projects: ProjectType[] }): JSX.Element => {
           description: seoDesc,
           site_name: 'Sai Krishna',
         }}
-        twitter={{
-          cardType: 'summary_large_image',
-        }}
       />
 
       <PageHeader title="Projects" description={seoDesc}>

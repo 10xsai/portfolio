@@ -41,11 +41,6 @@ const Home: NextPage = () => {
           type: 'website',
           locale: 'en_IN',
         }}
-        twitter={{
-          handle: '@msshanmukh',
-          site: '@msshanmukh',
-          cardType: 'summary_large_image',
-        }}
       />
 
       <main className={styles.header_container}>

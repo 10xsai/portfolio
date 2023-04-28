@@ -48,9 +48,6 @@ const Blog = ({ posts }: BlogProps): JSX.Element => {
           description: seoDesc,
           site_name: 'Sai Krishna',
         }}
-        twitter={{
-          cardType: 'summary_large_image',
-        }}
       />
 
       <PageHeader title="Blog" description={seoDesc}>

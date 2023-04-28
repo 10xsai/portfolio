@@ -6,19 +6,14 @@ const config = {
 	openGraph: {
 		type: "website",
 		locale: "en_US",
-		url: "https://shanmukh.xyz",
+		url: "https://krishnagottipalli.github.io/portfolio",
 		site_name: "Sai Krishna",
 		images: [
 			{
-				url: "https://shanmukh.com/og.jpg",
+				url: "https://krishnagottipalli.github.io/og.jpg",
 				alt: "Sai Krishna",
 			},
 		],
-	},
-	twitter: {
-		handle: "@msshanmukh",
-		site: "@msshanmukh",
-		cardType: "summary_large_image",
 	},
 };
 
