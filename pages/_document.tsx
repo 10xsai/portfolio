@@ -5,12 +5,12 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link href="https://github.com/0xHecker" rel="me" />
+          <link href="https://github.com/10xsai" rel="me" />
           <link rel="preload" href="/fonts/outfit-v4-latin-500.woff2" as="font" type="font/woff" crossOrigin="" />
           <link rel="preload" href="/fonts/outfit-v4-latin-700.woff2" as="font" type="font/woff" crossOrigin="" />
           <link rel="preload" href="/fonts/outfit-v4-latin-regular.woff2" as="font" type="font/woff" crossOrigin="" />
-          <link rel="preload" as="image" href={`${process.env.NODE_ENV=='development'?"":"/portfolio"}/blob_bg.webp`} />
-          <link rel="icon" type="image/x-icon" href="/avatar.svg" />
+          <link rel="preload" as="image" href={`blob_bg.webp`} />
+          <link rel="icon" type="image/x-icon" href="avatar.png" />
           <meta property="og:image" content="https://krishnagottipalli.github.io/api/og" />
 
           {process.env.NODE_ENV === 'production' && (
