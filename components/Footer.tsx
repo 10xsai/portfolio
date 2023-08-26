@@ -16,7 +16,7 @@ const footerLinks = [
   ],
   [
     { name: 'Mail', url: 'mailto:saikrishna.gdsv@gmail.com' },
-    { name: 'GitHub', url: 'https://github.com/krishnagottipalli' },
+    { name: 'GitHub', url: 'https://github.com/10xsai' },
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/gottipalli/' },
   ],
 ]

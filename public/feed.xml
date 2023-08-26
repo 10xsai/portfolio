@@ -2,32 +2,32 @@
     <channel>
         <title><![CDATA[Sai Krishna]]></title>
         <description><![CDATA[Sai Krishna]]></description>
-        <link>https://krishnagottipalli.github.io/</link>
+        <link>https://10xsai.github.io/</link>
         <generator>RSS for Node</generator>
         <lastBuildDate>Sat, 26 Aug 2023 05:29:40 GMT</lastBuildDate>
-        <atom:link href="https://krishnagottipalli.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://10xsai.github.io/feed.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sat, 26 Aug 2023 05:29:40 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2023, Sai Krishna]]></copyright>
         <language><![CDATA[en]]></language>
         <item>
             <title><![CDATA[learn basic git commands]]></title>
             <description><![CDATA[This post contains basic commands of git.]]></description>
-            <link>https://krishnagottipalli.github.io/blog/learn-basic-git-commands</link>
-            <guid isPermaLink="true">https://krishnagottipalli.github.io/blog/learn-basic-git-commands</guid>
+            <link>https://10xsai.github.io/blog/learn-basic-git-commands</link>
+            <guid isPermaLink="true">https://10xsai.github.io/blog/learn-basic-git-commands</guid>
             <pubDate>Sat, 29 Oct 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[React useReducer hook Simplified]]></title>
             <description><![CDATA[React useReducer hook Simplified]]></description>
-            <link>https://krishnagottipalli.github.io/blog/react-use-reducer-simplified</link>
-            <guid isPermaLink="true">https://krishnagottipalli.github.io/blog/react-use-reducer-simplified</guid>
+            <link>https://10xsai.github.io/blog/react-use-reducer-simplified</link>
+            <guid isPermaLink="true">https://10xsai.github.io/blog/react-use-reducer-simplified</guid>
             <pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Lazy Initilization and storing functions in React useState hook]]></title>
             <description><![CDATA[Lazy Initilization and storing functions in React useState hook]]></description>
-            <link>https://krishnagottipalli.github.io/blog/use-state-lazy-init</link>
-            <guid isPermaLink="true">https://krishnagottipalli.github.io/blog/use-state-lazy-init</guid>
+            <link>https://10xsai.github.io/blog/use-state-lazy-init</link>
+            <guid isPermaLink="true">https://10xsai.github.io/blog/use-state-lazy-init</guid>
             <pubDate>Sun, 28 Aug 2022 00:00:00 GMT</pubDate>
         </item>
     </channel>

@@ -7,8 +7,8 @@ const matter = require('gray-matter')
 async function generate() {
   const feed = new RSS({
     title: 'Sai Krishna',
-    site_url: 'https://krishnagottipalli.github.io/',
-    feed_url: 'https://krishnagottipalli.github.io/feed.xml',
+    site_url: 'https://10xsai.github.io/',
+    feed_url: 'https://10xsai.github.io/feed.xml',
     language: 'en',
     pubDate: new Date(),
     copyright: `All rights reserved ${new Date().getFullYear()}, Sai Krishna`,
@@ -23,7 +23,7 @@ async function generate() {
 
       feed.item({
         title: frontmatter.data.title,
-        url: 'https://krishnagottipalli.github.io/blog/' + name.replace(/\.mdx?/, ''),
+        url: 'https://10xsai.github.io/blog/' + name.replace(/\.mdx?/, ''),
         date: frontmatter.data.publishedAt,
         description: frontmatter.data.summary,
       })

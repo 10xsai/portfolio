@@ -9,7 +9,7 @@ export function Comments() {
   return (
     <Giscus
       id="comments"
-      repo="0xHecker/portfolio-site-next"
+      repo="10xsai/portfolio"
       repoId={repoId}
       category="General"
       categoryId={categoryId}

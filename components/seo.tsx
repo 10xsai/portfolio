@@ -6,11 +6,11 @@ const config = {
 	openGraph: {
 		type: "website",
 		locale: "en_US",
-		url: "https://krishnagottipalli.github.io/portfolio",
+		url: "https://10xsai.github.io/portfolio",
 		site_name: "Sai Krishna",
 		images: [
 			{
-				url: "https://krishnagottipalli.github.io/og.jpg",
+				url: "https://10xsai.github.io/og.jpg",
 				alt: "Sai Krishna",
 			},
 		],

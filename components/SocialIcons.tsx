@@ -10,7 +10,7 @@ export function SocialIcons({ scrollFunction }: any) {
         <div className={styles.header__socialIcons}>
           <div>
             <FaGithub />
-            <a target="_blank" href="https://github.com/krishnagottipalli" rel="noopener noreferrer" className={styles.iconNames}>
+            <a target="_blank" href="https://github.com/10xsai" rel="noopener noreferrer" className={styles.iconNames}>
               Github
             </a>
             <MdNorthEast />

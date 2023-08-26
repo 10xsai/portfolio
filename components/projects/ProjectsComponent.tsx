@@ -107,7 +107,7 @@ const Projects = () => {
 
       <div className={styles.github}>
         <span>More projects on</span>
-        <a target="_blank" href="https://github.com/krishnagottipalli" rel="noopener noreferrer" className={styles.iconName}>
+        <a target="_blank" href="https://github.com/10xsai" rel="noopener noreferrer" className={styles.iconName}>
           Github <strong>↗</strong>
         </a>
       </div>

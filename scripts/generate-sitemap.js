@@ -19,7 +19,7 @@ const prettier = require('prettier')
 
                 return `
                         <url>
-                            <loc>${`https://krishnagottipalli.github.io${route}`}</loc>
+                            <loc>${`https://10xsai.github.io${route}`}</loc>
                         </url>
                     `
               })
