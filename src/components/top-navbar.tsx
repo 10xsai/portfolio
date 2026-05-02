@@ -50,8 +50,7 @@ export const TopNavbar = () => {
             Home
           </Link>
           <Link
-            target="#"
-            href="https://blog.10xsai.com/"
+            href="/blog"
             className="text-muted-foreground hover:text-accent-foreground"
           >
             Blog
