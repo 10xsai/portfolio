@@ -54,15 +54,40 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <section id="building">
+        <BlurFade delay={BLUR_FADE_DELAY * 5}>
+          <div className="rounded-lg border p-6 space-y-2">
+            <span className="inline-block rounded-md bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 px-2 py-0.5 text-xs font-medium">
+              Open to AI Engineer Roles
+            </span>
+            <h2 className="text-xl font-bold">Currently Building</h2>
+            <p className="text-sm text-muted-foreground">
+              Building{" "}
+              <a
+                href="https://deepsurface.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-foreground transition-colors"
+              >
+                Deep Surface
+              </a>{" "}
+              — an AI-native attack surface management platform with
+              conversational agents, Temporal-orchestrated scan workflows, and
+              JanusGraph asset modeling. Looking for AI Engineer roles where
+              LLMs are core infrastructure.
+            </p>
+          </div>
+        </BlurFade>
+      </section>
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3 overflow-auto">
-          <BlurFade delay={BLUR_FADE_DELAY * 5}>
+          <BlurFade delay={BLUR_FADE_DELAY * 6}>
             <h2 className="text-xl font-bold">Work Experience</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade
               key={work.company}
-              delay={BLUR_FADE_DELAY * 6 + id * 0.05}
+              delay={BLUR_FADE_DELAY * 7 + id * 0.05}
               className="mb-3"
             >
               <ResumeCard
@@ -75,29 +100,6 @@ export default function Page() {
                 badges={work.badges}
                 period={`${work.start} - ${work.end ?? "Present"}`}
                 description={work.description}
-              />
-            </BlurFade>
-          ))}
-        </div>
-      </section>
-      <section id="education">
-        <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 7}>
-            <h2 className="text-xl font-bold">Education</h2>
-          </BlurFade>
-          {DATA.education.map((education, id) => (
-            <BlurFade
-              key={education.school}
-              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
-            >
-              <ResumeCard
-                key={education.school}
-                href={education.href}
-                logoUrl={education.logoUrl}
-                altText={education.school}
-                title={education.school}
-                subtitle={education.degree}
-                period={`${education.start} - ${education.end}`}
               />
             </BlurFade>
           ))}
@@ -123,9 +125,8 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  From AI agents and RAG pipelines to full-stack platforms and
+                  IoT systems — here&apos;s what I&apos;ve built.
                 </p>
               </div>
             </div>
@@ -150,6 +151,29 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
+        </div>
+      </section>
+      <section id="education">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 14}>
+            <h2 className="text-xl font-bold">Education</h2>
+          </BlurFade>
+          {DATA.education.map((education, id) => (
+            <BlurFade
+              key={education.school}
+              delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+            >
+              <ResumeCard
+                key={education.school}
+                href={education.href}
+                logoUrl={education.logoUrl}
+                altText={education.school}
+                title={education.school}
+                subtitle={education.degree}
+                period={`${education.start} - ${education.end}`}
+              />
+            </BlurFade>
+          ))}
         </div>
       </section>
       <section id="contact">

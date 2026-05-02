@@ -8,7 +8,7 @@ export default function About() {
   return (
     <div className="my-32">
       <section id="about">
-        <div className="flex justify-between gap-12">
+        <div className="flex justify-between gap-12 pb-8">
           <BlurFade delay={BLUR_FADE_DELAY * 3}>
             <h2 className="text-4xl mb-6 font-bold">About Me 🚀</h2>
             <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
